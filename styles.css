@@ -1,0 +1,385 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #ffffff;
+  background: #212121;
+  padding: 10px;
+  align-items: center;
+  align-self: center;
+
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+background: #424242;
+}
+
+::-webkit-scrollbar-thumb{
+background: linear-gradient(to bottom, white, #212121);
+border-radius: 50px;
+border: 1px solid #424242;
+}
+
+.caption {
+  text-align: center;
+  width: 400px;
+}
+
+.img_header {
+align-items: center;
+align-self: center;
+text-align: center;
+display: flex;
+}
+
+.game {
+align-items: center;
+align-self: center;
+text-align: center;
+display: flex;
+margin: 5px;
+}
+
+.thumbnail-inverse {
+  height: 200px;
+  width: 200px;
+  margin-right: 5px;
+}
+.col-sm-6 {
+  height: 200px;
+  width: 230px;
+}
+
+.info {
+  text-align: left;
+}
+
+panel {
+  background: #212121;
+}
+
+.web-chrome-playback-lcd__song-name-scroll,.web-chrome-playback-lcd__sub-copy-scroll{display:inline-block;text-align:center}.is-marquee .web-chrome-playback-lcd__song-name-scroll,.is-marquee .web-chrome-playback-lcd__sub-copy-scroll{text-align:start;-webkit-padding-end:10px;padding-inline-end:10px}.web-chrome-playback-lcd__song-name-scroll .web-chrome-playback-lcd__sub-copy-scroll-link,.web-chrome-playback-lcd__song-name-scroll .web-chrome-playback-lcd__sub-copy-scroll-link:hover,.web-chrome-playback-lcd__sub-copy-scroll .web-chrome-playback-lcd__sub-copy-scroll-link,.web-chrome-playback-lcd__sub-copy-scroll .web-chrome-playback-lcd__sub-copy-scroll-link:hover{color:var(--systemSecondary)}
+panel panel-default {
+  background: #212121;
+}
+
+.breadcrumbs {
+    margin: 0; padding: 0; /* Убираем отступы */
+   }
+   .breadcrumbs li {
+    display: inline-block; /* Выстраиваем по горизонтали */
+   }
+   .breadcrumbs li::before {
+    content: '>'; /* Разделитель */
+    margin-left: 5px; /* Отступ слева */
+    margin-right: 5px; /* Отступ справа */
+    color: #ffffff; /* Цвет разделителя */
+   }
+   .breadcrumbs li:first-child::before {
+    content: ''; /* Убираем разделитель для первого пункта */
+   }
+  </style>
+ </head>
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+  border-radius: 7px;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+  border-radius: 7px;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 7px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 20px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.clear {
+ clear:both;
+}
+
+div.news-list {
+ float: left;
+ width: 90%;
+ align-content: center;
+ vertical-align: middle;
+ margin-left: 5%;
+ margin-right: 5%;
+ top: 50%;
+ left: 50%;
+}
+div.app-list {
+ float: left;
+ width: 600px;
+ align-content: center;
+ vertical-align: middle;
+ margin-left: calc(50% - 300px);
+ margin-right: calc(50% - 300px);
+ top: 50%;
+ left: 50%;
+}
+div.app-list1 {
+ float: left;
+ width: 80%;
+ align-content: center;
+ vertical-align: center;
+ align-self: center;
+ margin-left: 10%;
+ margin-right: 10%;
+ top: 50%;
+ left: 50%;
+}
+
+div.news-list1 {
+ float: left;
+ width: 100%;
+ align-content: center;
+ vertical-align: middle;
+
+}
+
+div.one-news {
+ float: left;
+ margin:5px;
+}
+
+div.one-store {
+ float: left;
+ margin-left: 2%;
+ margin-right: 2%;
+}
+div.one-store1 {
+ float: left;
+ margin-right: 2%;
+}
+
+div.one-news-last {
+ margin: 0;
+}
+
+div.one-news {
+  width: 48%;
+}
+
+div.one-store {
+  width: 47%;
+}
+div.one-store1 {
+  width: 47%;
+}
+
+div.one-app {
+  float: left;
+}
+
+div.one-news-second {
+  max-width: 350px;
+  margin-right: calc(35% - 350px);
+  margin-left: 5%;
+vertical-align: middle;
+}
+
+div.one-news-second-1 {
+  width: 40%;
+  margin-right: 5%;
+}
+
+div.one-news-second-2 {
+  width: 45%;
+  vertical-align: middle;
+  margin-left: 5%;
+}
+
+div.one-news-second-3 {
+max-width: 400px;
+margin-left: 5%;
+margin-right: 5%;
+
+}
+
+div.table-inverse {
+  align-self: center;
+}
+
+.card {
+  position: center;
+  transition: box-shadow .25s;
+  border-radius: 10px;
+  padding:0;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 70px;
+}
+.card .card-image img {
+  display: block;
+  border-radius: 10px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 70px;
+  height: 70px;
+}
+.card .card-content {
+  border-radius: 10px;
+  padding-left: 5px;
+  width: 100%;
+}
+
+.card .card-content1 {
+  border-radius: 10px;
+  padding-left: 5px;
+  width: 125px;
+}
+
+.card .card-content p {
+  margin:0;
+  font-size:1.45rem;
+  color: #555555;
+  align-content: center;
+  align-items: center;
+}
+
+.card .card-content1 p {
+  margin:0;
+  font-size:1.45rem;
+  color: #555555;
+  align-content: center;
+  align-items: center;
+}
+
+/*----3.a.Horizontal----*/
+.card.horizontal .card-image img {
+  height:70px;
+  width:70px;
+}
+
+.card.horizontal {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    background: #424242;
+    width: 100%;
+}
+.card.horizontal.small .card-image,
+ .card.horizontal.medium .card-image,
+  .card.horizontal.large .card-image {
+    height: 100%;
+    max-height: none;
+    overflow: visible;
+}
+.card.horizontal .card-image img {
+    width:70px;
+  height:70px;
+}
+.card.horizontal .card-stacked {
+  display: block;
+  width: 100%;
+  position: center;
+}
+.card.horizontal .card-stacked .card-content {
+  display: block;
+    position: center;
+}
+.card .card-image {
+  position: relative;
+}
+
+div.store {
+ overflow: hidden;
+ width: 100%;
+ align-content: center;
+ vertical-align: middle;
+align-items: center;
+align-self: center;
+
+}
+
+.strapp {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
