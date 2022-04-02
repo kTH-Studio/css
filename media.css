@@ -74,6 +74,7 @@ a.strapp {
 }
 .card {
   position: center;
+  min-height: 70px;
 
     transition: box-shadow .25s;
     border-radius: 10px;
