@@ -333,6 +333,7 @@ div.table-inverse {
 .card.horizontal .card-image img {
   height:70px;
   width:70px;
+  position: center;
 }
 
 .card.horizontal {
