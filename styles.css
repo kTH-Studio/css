@@ -254,7 +254,7 @@ div.one-app {
 }
 
 div.one-news-second {
-  width: 35%;
+  width: 45%;
   margin-left: 5%;
 vertical-align: middle;
 }
@@ -271,8 +271,8 @@ div.one-news-second-2 {
 }
 
 div.one-news-second-3 {
-max-width: 35%;
-margin-left: 5%;
+max-width: 45%;
+margin-right: 5%;
 }
 
 div.table-inverse {
