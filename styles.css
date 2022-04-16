@@ -261,7 +261,7 @@ vertical-align: middle;
 }
 
 div.one-news-second-1 {
-  width: 40%;
+  width: 35%;
   margin-right: 5%;
 }
 
@@ -272,10 +272,8 @@ div.one-news-second-2 {
 }
 
 div.one-news-second-3 {
-max-width: 400px;
+max-width: 35%;
 margin-left: 5%;
-margin-right: 5%;
-
 }
 
 div.table-inverse {
