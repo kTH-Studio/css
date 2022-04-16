@@ -201,12 +201,10 @@ div.app-list {
 }
 div.app-list1 {
  float: left;
- width: 80%;
+ width: 100%;
  align-content: center;
  vertical-align: center;
  align-self: center;
- margin-left: 10%;
- margin-right: 10%;
  top: 50%;
  left: 50%;
 }
@@ -239,7 +237,7 @@ div.one-news-last {
 }
 
 div.one-news {
-  width: 48%;
+  width: 80%;
 }
 
 div.one-store {
@@ -254,9 +252,9 @@ div.one-app {
 }
 
 div.one-news-second {
-  width: 45%;
+  width: 40%;
   margin-left: 5%;
-vertical-align: middle;
+  marin-right: 5%;
 }
 
 div.one-news-second-1 {
@@ -271,8 +269,9 @@ div.one-news-second-2 {
 }
 
 div.one-news-second-3 {
-max-width: 45%;
+max-width: 40%;
 margin-right: 5%;
+margin-left: 5%;
 }
 
 div.table-inverse {
