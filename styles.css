@@ -254,8 +254,7 @@ div.one-app {
 }
 
 div.one-news-second {
-  max-width: 350px;
-  margin-right: calc(35% - 350px);
+  width: 35%;
   margin-left: 5%;
 vertical-align: middle;
 }
