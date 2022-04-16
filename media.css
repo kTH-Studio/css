@@ -1,3 +1,8 @@
+img.istore {
+width: 200px;
+height: 200px;
+}
+
 div.one-news {
  width: 100%;
  margin: 0;
@@ -212,3 +217,8 @@ div.one-app {
  float: none;
  width: 100%;
  }
+
+img.istore {
+width: 150px;
+height: 150px;
+}
