@@ -25,7 +25,7 @@ div.one-store1 {
  float: none;
 }
 div.app-list {
- float: left;
+ float: center;
  width: 100%;
  align-content: center;
  vertical-align: middle;
@@ -61,7 +61,7 @@ div.one-news-second-2 {
 div.one-news-second-3 {
  clear: both;
  float: none;
- max-width: 430px;
+ width: 100%;
  padding-top: 20px;
 
 }
