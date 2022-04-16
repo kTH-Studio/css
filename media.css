@@ -3,6 +3,10 @@ width: 200px;
 height: 200px;
 }
 
+.tb{
+font-size:100%;
+}
+
 div.one-news {
  width: 100%;
  margin: 0;
@@ -221,4 +225,8 @@ div.one-app {
 .istore {
 width: 150px;
 height: 150px;
+}
+
+.tb{
+font-size:80%;
 }
