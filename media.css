@@ -111,6 +111,38 @@ div.app-list {
 
 @media all and (max-width: 768px) {
  
+ div.one-news {
+ width: 100%;
+ margin: 0;
+ float: none;
+}
+
+div.one-store {
+ width: 100%;
+ margin: 0;
+ float: none;
+}
+
+div.one-store1 {
+ width: 100%;
+ margin: 0;
+ float: none;
+}
+div.app-list {
+ float: center;
+ width: 100%;
+ align-content: center;
+ vertical-align: middle;
+ margin-left: 0px;
+ margin-right: 0px;
+ top: 50%;
+ left: 50%;
+}
+
+div.one-app {
+ float: none;
+ }
+ 
 .table td, .table th {
 font-size: 14px;
 }
