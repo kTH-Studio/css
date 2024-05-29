@@ -2077,11 +2077,11 @@ th {
   padding: 4px;
   line-height: 1.42857143;
   vertical-align: top;
-  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #fff;
 }
 .table > thead > tr > th {
   vertical-align: bottom;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #fff;
 }
 .table > caption + thead > tr:first-child > th,
 .table > colgroup + thead > tr:first-child > th,
