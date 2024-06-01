@@ -1,6 +1,4 @@
 body {
-  margin-bottom: 40px;
-  margin-top: 60px;
   color: #ffffff;
   background: #212121;
   padding: 10px;
@@ -145,6 +143,7 @@ div.news-list {
  left: 50%;}
 
 div.app-list {
+margin-top: 60px;
  float: left;
  width: 600px;
  align-content: center;
