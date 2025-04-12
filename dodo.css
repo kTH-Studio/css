@@ -15,3 +15,120 @@ color: rgb(255, 255, 255);
 word-break: break-word;
 font-family: DodoRoundedv2, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
 line-height: 1.25;}
+
+.jnNAEw {
+display: flex;
+flex-flow: column wrap;
+align-content: flex-start;
+margin: 0px;
+padding: 4rem 4rem;
+width: 100%;
+height: 100%;
+list-style-type: none;}
+
+.WbGye {
+display: flex:
+padding-top: 2rem;
+font-weight: 550;
+-webkit-box-pack: justify;
+justify-content: space- between;
+align-items: center;}
+
+.iPyQeG {
+margin: 0px;
+color: rgb(255, 105, 0)
+text-transform: uppercase;
+word-break: break-word;
+font-weight: 900;
+font-size: 7.75rem;
+line-height: 1.25;
+padding-left: 3rem;}
+
+.blIKOe {
+margin-top: 0px;
+margin-bottom: 0px;
+padding-right: 3rem;
+color: rgb(150, 150, 150):
+font-size: 5rem;}
+
+.jIPSti{ 
+padding-right: 3rem; 
+padding-bottom: 0px; 
+padding-left: 3rem; 
+width: calc(16.5%);
+box-sizing: border-box;}
+
+.kWDoN1 {
+margin-top: 0px;
+margin-bottom: 0px;
+font-size: 5.5rem;
+box-sizing: border-box;}
+
+div {
+display: block;
+unicode-bidi: isolate;}
+
+.wbGye .sc-bTvRvy { 
+padding-left: 2rem;}
+
+.gLFors { 
+white-space: nowrap;}
+
+.kWDoN1 {
+margin-top: 0px;
+margin-bottom: 0px;
+font-size: 5.5rem;}
+
+.jsILxb {
+margin-top: 0px;
+margin-bottom: 0px;
+padding: "1rem 0px 0px";
+color: rgb(150, 150, 150);
+-weight: 500;
+font-size: 5rem;}
+
+p {
+user agent stylesheet
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-intine-start: 0px;
+margin-inline-end: 0px;
+unicode-bidi: isolate;}
+
+.ruXQC {
+overflow: hidden;
+padding-left: 1px;
+color: rgb(150, 150, 150);
+text-overflow: ellipsis;
+white-space: nowrap;
+line-height: 2;
+font-size: 4rem;}
+
+::before{
+box-sizing: border-box;}
+
+::after{
+box-sizing: border-box;}
+
+.fQJsdw {
+display: block;
+word-break: break-word;
+font-size: 5rem;}
+
+.jjBRJc {
+user-select: none;
+position: relative;
+display: flex;
+flex-direction: column;
+-webkit-box-pack: center;
+justify-content: center;
+-webkit-box-align: center;
+align-items: center;
+overflow: hidden;
+width: 100vw;
+height: 100vh;
+background-color:
+rgb(48, 48, 48);
+color: rgb(255, 255, 255);
+font-family: DodoRoundedv2, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", sans-serif;}
